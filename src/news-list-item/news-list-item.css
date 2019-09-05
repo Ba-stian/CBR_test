@@ -1,0 +1,140 @@
+.container {
+	width: 100%;
+	background: rgba(255, 255, 255, 0.07);
+	border-radius: 12px;
+	margin: 20px 0;
+}
+
+.img {
+	width: 100%;
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
+}
+
+.content {
+	padding: 15px;
+}
+
+.up {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 17px;
+}
+
+.up_left {
+	display: flex;
+	flex-direction: row;
+}
+
+.game_group {
+	display: flex;
+	align-items: center;
+}
+
+.game {
+	font-size: 12px;
+}
+
+.game_cs,
+.game_dota {
+	margin-right: 8px;
+}
+
+.game_dota {
+	padding: 4px;
+	background: #303030;
+	border-radius: 4px;
+}
+
+.when {
+	font-size: 12px;
+}
+
+.main {
+	width: 75%;
+}
+
+.header {
+	font-size: 18px;
+	line-height: 24px;
+	padding-right: 18px;
+	padding-bottom: 8px;
+}
+
+.paragraph {
+	font-size: 14px;
+	line-height: 18px;
+	padding-bottom: 8px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 8px 0;
+}
+
+.footer_left {
+	display: flex;
+	flex-direction: row;
+}
+
+.footer_group {
+	display: flex;
+	align-items: center;
+	padding-right: 30px;
+}
+
+.icon {
+	padding-right: 10px;
+}
+
+.footer_group_right {
+	display: flex;
+	align-items: center;
+}
+
+.streamer_group {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-right: 20px;
+}
+
+.streamer {
+	font-size: 12px;
+	padding-left: 8px;
+}
+
+
+@media screen and (max-width: 768px) {
+	* {
+		font-size: 85%;
+	}
+	.main {
+		width: 100%;
+	}
+
+	.header {
+		padding: 0;
+	}
+
+}
+
+@media screen and (max-width: 396px) {
+	.footer,
+	.footer_group {
+		flex-wrap: wrap;
+		margin: 0 auto;
+		padding-right: 7px;
+		padding-bottom: 5px;
+	}
+	.icon {
+		padding-right: 7px;
+	}
+	.footer_group_right,
+	.footer_left {
+		margin: 0 auto;
+	}
+}

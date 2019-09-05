@@ -1,13 +1,54 @@
 [
   {
+    "id": 1,
+    "pic": "pic1.svg",
     "who": null,
     "game": "CSGO",
-    "when": "Час назад",
+    "when": "час назад",
     "header": "Объявлены обладатели инвайтов на квалификации к DH Masters Malmö 2019",
     "content": "DreamHack представила список приглашенных команд на закрытый этап квалификации для европейского, североамериканского и тихоокеанского регионов к следующему Masters-турниру.",
-    "experience": "440xp",
+    "experience": "440XP",
     "comments": 2,
     "marked": 7,
-    "views": 740
+    "views": "740"
+  },
+  {
+    "id": 2,
+    "pic": null,
+    "who": null,
+    "game": "Dota",
+    "when": "три часа назад",
+    "header": "Три игрока ушли из Mineski",
+    "content": "Nikolay “Nikobaby” Nikolov сегодня стал свободным агентом: о своем уходе из Весь мир, World Mineski болгарский игрок сообщил в твиттере. По словам комментатора студии Maincast Украина, Ukraine, UA Виталия “v1lat” Волочая, Nikobaby открыт для предложений из других регионов.",
+    "experience": "440XP",
+    "comments": 0,
+    "marked": 1,
+    "views": "2.4k"
+  },
+  {
+    "id": 3,
+    "pic": "pic2.svg",
+    "who": "Lord Mantis",
+    "game": "CSGO",
+    "when": "три часа назад",
+    "header": "DreamEaters vs NRG. Прогноз и ставка Lord Mantis",
+    "content": "Стартовый поединок между DreamEaters и NRG многими рассматривается как самый предсказуемый в первом игровом дне Berlin Major. Сыграет команда — молодой СНГ-коллектив, который имеет 15-й посев и пробился на мейджор через Play-in, заняв третье место на СНГ-миноре.",
+    "experience": "440XP",
+    "comments": 5,
+    "marked": 1,
+    "views": "3.7k"
+  },
+  {
+    "id": 4,
+    "pic": null,
+    "who": null,
+    "game": "Dota",
+    "when": "11:33",
+    "header": "Прогноз на матч forZe VS DreamEaters",
+    "content": "На данный момент forZe располагаются на 21 месте в списке лучших CS:GO-составов по мнению HLTV. Игроки имеют винрейт в 75% за последние 3 месяца, что говорит об их неплохой игровой форме и готовности побеждать в предстоящем матче.",
+    "experience": "440XP",
+    "comments": 2,
+    "marked": 0,
+    "views": "740"
   }
 ]

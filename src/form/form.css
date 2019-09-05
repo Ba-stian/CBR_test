@@ -1,0 +1,31 @@
+.select {
+	background: rgba(255, 255, 255, 0.07);
+	border: none;
+	outline: none;
+	padding: 11px;
+	width: 180px;
+	border-radius: 8px;
+	color: #fff;
+	position: relative;
+	display: inline-block;
+}
+
+.select:after {
+	content: "▼";
+	padding: 0 8px;
+	font-size: 12px;
+	position: absolute; right: 8px; top: 4px;
+	z-index: 1;
+	text-align: center;
+	width: 10%;
+	height: 100%;
+	pointer-events: none;
+	box-sizing: border-box;
+}
+select {
+	padding-right: 25px;
+	border: 1px solid #ABADB3;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
